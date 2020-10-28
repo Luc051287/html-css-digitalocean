@@ -1,0 +1,87 @@
+body {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  font-size: 14px;
+}
+
+/*GENERICS*/
+
+/* [class*="col-"] {
+  border: 1px solid black;
+} */
+
+/*HEADER*/
+
+header > nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+}
+
+#logo_link {
+  display: inline-block;
+  height: 65px;
+  line-height: 65px;
+}
+
+#logo {
+  width: 172px;
+}
+
+.hlist {
+  margin-bottom: 0;
+  color: #000000;
+  height: 65px;
+  line-height: 65px;
+  text-decoration: none;
+}
+
+.hlist > li {
+  display: inline-block;
+  height: 100%;
+  padding: 5px 10px;
+}
+
+.hlist a {
+  color: #000000;
+}
+
+.hlist li:hover {
+  cursor: pointer;
+}
+
+.hlist li:hover > a {
+  text-decoration: none;
+  color: #006AFF;
+}
+
+.hlist a > i {
+  color: lightgray;
+}
+
+a.nav_burger {
+  display: inline-block;
+  color: #006AFF;
+  height: 100%;
+  line-height: 65px;
+
+}
+
+i.nav_burger {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#nav_signup {
+  color: #006AFF;
+  border: 1px solid #006AFF;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#nav_signup:hover {
+  color: #FFFFFF;
+  background-color: #006AFF;
+}
