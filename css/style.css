@@ -1,10 +1,13 @@
 body {
   color: #FFFFFF;
-  background-color: #FFFFFF;
   font-size: 14px;
 }
 
 /*GENERICS*/
+
+h1 {
+  font-size: 4.1em;
+}
 
 /* [class*="col-"] {
   border: 1px solid black;
@@ -18,6 +21,8 @@ header > nav {
   left: 0;
   width: 100%;
   height: 65px;
+  background-color: #FFFFFF;
+  z-index: 3;
 }
 
 #logo_link {
@@ -66,7 +71,6 @@ a.nav_burger {
   color: #006AFF;
   height: 100%;
   line-height: 65px;
-
 }
 
 i.nav_burger {
@@ -84,4 +88,29 @@ i.nav_burger {
 #nav_signup:hover {
   color: #FFFFFF;
   background-color: #006AFF;
+}
+
+
+/*JUMBOTRON*/
+
+#jumbotron {
+  margin-top: 65px;
+  padding: 20px 0;
+  background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#jumbotron p {
+  font-size: 1.7em;
+  font-weight: 200;
+}
+
+#create_account {
+  background-color: white;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border-radius: 5px;
 }
