@@ -268,6 +268,11 @@ button[type="submit"]:hover {
   color: #A9B0C0;
 }
 
+#deploy .container > .row:first-child {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #deploy ul {
   padding: 0;
   font-size: 16px;
@@ -303,8 +308,39 @@ div.deploy_common {
 
 div.deploy_common > img {
   width: 39px;
+  height: 38px;
 }
 
 div.deploy_common > p {
   font-size: 1.1em;
+}
+
+@media (min-width: 768px) {
+
+  #deploy ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+  }
+
+  #deploy .hlist > li {
+    display: list-item;
+  }
+
+  #deploy li > a:after {
+    display: none;
+  }
+
+  .hlist {
+    height: 100%;
+  }
+
+  div.deploy_common {
+    margin-top: 0;
+  }
+
+  #deploy .row > [class*="col-"] > .row:first-child {
+    margin-bottom: 30px;
+  }
+
 }
