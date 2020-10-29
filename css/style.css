@@ -9,6 +9,10 @@ h1 {
   font-size: 3.5em;
 }
 
+img {
+  width: 100%;
+}
+
 .blue_main {
   color: #006AFF !important;
 }
@@ -182,4 +186,58 @@ button[type="submit"]:hover {
   font-size: 0.9em;
   margin-top: 15px;
   font-weight: 300;
+}
+
+/* CUSTOMERS */
+
+#customers {
+  height: 1500px;
+  background-color: #F3F5F9;
+}
+
+#customers > h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5B6987;
+  padding-top: 50px;
+}
+
+#logos ul {
+  padding: 0;
+}
+
+.logo_container {
+  display: inline-block;
+  height: 160px;
+  line-height: 160px;
+  width: calc(100%/2 - 2px);
+}
+
+.logo_container > img {
+  max-height: 100%;
+  max-width: 200px;
+}
+
+@media (min-width: 768px) {
+
+  .logo_container {
+    width: calc(100%/3 - 3px);
+  }
+
+  .logo_container > img {
+    max-width: 160px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .logo_container {
+    width: calc(100%/6 - 6px);
+  }
+
+  .logo_container > img {
+    max-width: 140px;
+  }
+
 }
