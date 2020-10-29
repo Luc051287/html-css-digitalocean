@@ -6,7 +6,7 @@ body {
 /*GENERICS*/
 
 h1 {
-  font-size: 4.1em;
+  font-size: 3.5em;
 }
 
 .blue_main {
@@ -105,17 +105,41 @@ i.nav_burger {
 }
 
 #jumbotron p {
-  font-size: 1.7em;
+  font-size: 1.6em;
   font-weight: 200;
+}
+
+@media (min-width: 1200px) {
+
+  h1 {
+    font-size: 4.1em;
+  }
+
+  #jumbotron p {
+    font-size: 1.7em;
+  }
+
+}
+
+#main_text {
+  padding: 20px auto;
 }
 
 #create_account {
   color: #000000;
   margin: 20px auto;
   background-color: white;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   padding: 20px
+}
+
+@media (min-width: 992px) {
+
+  #create_account {
+    width: 80%;
+  }
+
 }
 
 input {
