@@ -9,6 +9,10 @@ h1 {
   font-size: 4.1em;
 }
 
+.blue_main {
+  color: #006AFF !important;
+}
+
 /* [class*="col-"] {
   border: 1px solid black;
 } */
@@ -68,7 +72,6 @@ header > nav {
 
 a.nav_burger {
   display: inline-block;
-  color: #006AFF;
   height: 100%;
   line-height: 65px;
 }
@@ -79,7 +82,6 @@ i.nav_burger {
 }
 
 #nav_signup {
-  color: #006AFF;
   border: 1px solid #006AFF;
   border-radius: 5px;
   padding: 8px;
@@ -109,18 +111,19 @@ i.nav_burger {
 
 #create_account {
   color: #000000;
-  margin-top: 20px;
+  margin: 20px auto;
   background-color: white;
   width: 80%;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 5px;
   padding: 20px
 }
 
 input {
   height: 50px !important;
+}
+
+#create_account > h3 {
+  margin-top: 0;
 }
 
 #create_account button {
@@ -135,9 +138,24 @@ button[type="submit"] {
   background-color: #005CFF;
 }
 
+button[type="button"] {
+  text-align: left;
+  position: relative;
+}
+
+button[type="button"] > b {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 button[type="submit"]:hover {
   color: #FFFFFF;
   background-color: #1633FF;
 }
 
-#logo_google {}
+#jumbotron form > p {
+  font-size: 0.9em;
+  margin-top: 15px;
+  font-weight: 300;
+}
