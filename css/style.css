@@ -191,7 +191,6 @@ button[type="submit"]:hover {
 /* CUSTOMERS */
 
 #customers {
-  height: 1500px;
   background-color: #F3F5F9;
 }
 
@@ -240,4 +239,72 @@ button[type="submit"]:hover {
     max-width: 140px;
   }
 
+}
+
+#customers a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#customers a > i {
+  margin-left: 10px;
+}
+
+/*DEPLOY*/
+
+#deploy {
+  height: 1500px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#deploy h3 {
+  font-size: 2.5em;
+}
+
+#deploy p {
+  font-size: 1.4em;
+  font-weight: 200;
+  color: #A9B0C0;
+}
+
+#deploy ul {
+  padding: 0;
+  font-size: 16px;
+  width: 471px;
+  margin: auto;
+}
+
+#deploy li:hover > a {
+  color: #000000;
+}
+
+#deploy ul > li {
+  padding: 0;
+}
+
+#deploy li > a:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 4px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+#deploy li:hover > a:after {
+  background-color: blue;
+}
+
+div.deploy_common {
+  margin-top: 30px;
+}
+
+div.deploy_common > img {
+  width: 39px;
+}
+
+div.deploy_common > p {
+  font-size: 1.1em;
 }
