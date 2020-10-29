@@ -9,6 +9,17 @@ h1 {
   font-size: 3.5em;
 }
 
+h3 {
+  font-size: 2.5em;
+  color: #000000;
+}
+
+p {
+  font-size: 1.4em;
+  font-weight: 200;
+  color: #A9B0C0;
+}
+
 img {
   width: 100%;
 }
@@ -92,7 +103,7 @@ i.nav_burger {
 }
 
 #nav_signup:hover {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   background-color: #006AFF;
 }
 
@@ -111,6 +122,7 @@ i.nav_burger {
 #jumbotron p {
   font-size: 1.6em;
   font-weight: 200;
+  color: #FFFFFF;
 }
 
 @media (min-width: 1200px) {
@@ -186,19 +198,20 @@ button[type="submit"]:hover {
   font-size: 0.9em;
   margin-top: 15px;
   font-weight: 300;
+  color: #000000;
 }
 
 /* CUSTOMERS */
 
 #customers {
   background-color: #F3F5F9;
+  padding: 40px 0;
 }
 
 #customers > h4 {
   margin-top: 0;
   margin-bottom: 0;
   color: #5B6987;
-  padding-top: 50px;
 }
 
 #logos ul {
@@ -243,7 +256,6 @@ button[type="submit"]:hover {
 
 #customers a {
   display: inline-block;
-  margin-bottom: 10px;
 }
 
 #customers a > i {
@@ -255,20 +267,10 @@ button[type="submit"]:hover {
 #deploy {
   background-color: #FFFFFF;
   color: #000000;
-}
-
-#deploy h3 {
-  font-size: 2.5em;
-}
-
-#deploy p {
-  font-size: 1.4em;
-  font-weight: 200;
-  color: #A9B0C0;
+  padding: 30px 0;
 }
 
 #deploy .container > .row:first-child {
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -359,6 +361,49 @@ div.deploy_common > p {
 
   #deploy li:hover > a:before {
     background-color: blue;
+  }
+
+}
+
+/* DEVELOPERS */
+
+#developers {
+  background-color: #F3F5F9;
+  height: 1500px;
+  padding: 30px 0;
+}
+
+#developers img {
+  max-width: 450px;
+  margin-top: 30px;
+}
+
+#developers span.glyphicon {
+  color: #98A3B8;
+  vertical-align: middle;
+  font-size: 40px;
+  margin: 10px;
+}
+
+#developers span.glyphicon:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+
+  #developers img {
+    max-width: 550px;
+    margin-top: 30px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  #developers img {
+    max-width: 700px;
+    margin-top: 30px;
   }
 
 }
