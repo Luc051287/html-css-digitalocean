@@ -108,9 +108,36 @@ i.nav_burger {
 }
 
 #create_account {
+  color: #000000;
+  margin-top: 20px;
   background-color: white;
   width: 80%;
   height: 400px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
+  padding: 20px
 }
+
+input {
+  height: 50px !important;
+}
+
+#create_account button {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 13px;
+}
+
+button[type="submit"] {
+  color: #FFFFFF;
+  background-color: #005CFF;
+}
+
+button[type="submit"]:hover {
+  color: #FFFFFF;
+  background-color: #1633FF;
+}
+
+#logo_google {}
