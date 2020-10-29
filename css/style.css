@@ -253,7 +253,6 @@ button[type="submit"]:hover {
 /*DEPLOY*/
 
 #deploy {
-  height: 1500px;
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -325,6 +324,9 @@ div.deploy_common > p {
 
   #deploy .hlist > li {
     display: list-item;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 2px;
   }
 
   #deploy li > a:after {
@@ -341,6 +343,22 @@ div.deploy_common > p {
 
   #deploy .row > [class*="col-"] > .row:first-child {
     margin-bottom: 30px;
+  }
+
+  #deploy li > a:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 2px;
+    height: 55px;
+    background-color: lightgray;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+
+  #deploy li:hover > a:before {
+    background-color: blue;
   }
 
 }
