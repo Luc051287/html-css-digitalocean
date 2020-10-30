@@ -25,9 +25,9 @@ p {
   color: #A9B0C0;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 .blue_main {
   color: #006AFF !important;
@@ -377,36 +377,36 @@ div.deploy_common > p {
 
 /* DEVELOPERS */
 
-#developers {
+#developers, #development_teams {
   background-color: #F3F5F9;
   padding: 30px 0;
 }
 
-#developers img {
+.develop_common img {
   max-width: 450px;
   margin-top: 30px;
 }
 
-#developers span.glyphicon {
+.develop_common span.glyphicon {
   color: #98A3B8;
   vertical-align: middle;
   font-size: 40px;
   margin: 10px;
 }
 
-#developers span.glyphicon:hover {
+.develop_common span.glyphicon:hover {
   cursor: pointer;
   color: #000000;
 }
 
-#developers [class*="col-"]:nth-child(3) > p {
+.develop_common [class*="col-"]:nth-child(3) > p {
   font-size: 1.2em;
   color: black;
   font-weight: 500;
   margin-top: 30px;
 }
 
-#developers [class*="col-"]:nth-child(3) > button {
+.develop_common [class*="col-"]:nth-child(3) > button {
   margin: 20px 5px;
   padding: 5px;
   border-radius: 50%;
@@ -414,13 +414,13 @@ div.deploy_common > p {
   border: 2px solid #0069FF;
 }
 
-#developers [class*="col-"]:nth-child(3) > button:nth-child(2) {
+.develop_common [class*="col-"]:nth-child(3) > button:nth-child(2) {
   background-color: #0069FF;
 }
 
 @media (min-width: 768px) {
 
-  #developers img {
+  .develop_common img {
     max-width: 550px;
     margin-top: 30px;
   }
@@ -429,7 +429,7 @@ div.deploy_common > p {
 
 @media (min-width: 992px) {
 
-  #developers img {
+  .develop_common img {
     max-width: 700px;
     margin-top: 30px;
   }
@@ -462,7 +462,7 @@ div.deploy_common > p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 40px 0;
+  padding: 40px 10px;
 }
 
 #regions h3 {
@@ -511,4 +511,34 @@ div.deploy_common > p {
 
 }
 
-/*DEVELOPMENT*/
+/*DEVELOPMENT_TEAMS*/
+
+.comments_box {
+  width: 60vw;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px 10px;
+}
+
+.comments_box img {
+  max-width: 200px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.comments_box > p {
+  color: #000000;
+  font-weight: 300;
+}
+
+.comments_box > p:nth-child(3) {
+  font-size: 0.9em;
+}
+
+.comments_box a {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
