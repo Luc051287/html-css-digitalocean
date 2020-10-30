@@ -571,7 +571,6 @@ div.deploy_common > p {
 
 #footer_menus {
   background-color: #010E28;
-  height: 2000px;
   padding: 50px 0;
 }
 
@@ -603,4 +602,38 @@ div.deploy_common > p {
 
 #footer_menus .social > a > i:hover {
   color: #FFFFFF;
+}
+
+#footer_menus ul {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+#footer_menus ul > li {
+  height: 30px;
+  margin-bottom: 2px;
+  font-size: 1.3em;
+}
+
+#footer_menus ul > li > a {
+  color: #A9B0C0;
+}
+
+#footer_menus ul > li > a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#footer_menus ul > li:first-child {
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+
+  #footer_menus ul > li {
+    font-size: 1.1em;
+  }
+
 }
