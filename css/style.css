@@ -219,6 +219,11 @@ a.link_with_arrow {
   color: #006AFF;
 }
 
+a.link_with_arrow:hover {
+  text-decoration: none;
+  color: #001ffe;
+}
+
 a.link_with_arrow > i {
   margin-left: 10px;
 }
@@ -403,7 +408,7 @@ div.deploy_common > p {
 
 .comments_box a {
   margin-top: 30px;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /*FOOTER*/
