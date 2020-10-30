@@ -12,6 +12,7 @@ h1 {
 h3 {
   font-size: 2.5em;
   color: #000000;
+  margin-top: 0;
 }
 
 h4 {
@@ -211,7 +212,7 @@ button[type="submit"]:hover {
 
 #customers {
   background-color: #F3F5F9;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 #customers > h4 {
@@ -275,7 +276,7 @@ a.link_with_arrow > i {
 #deploy {
   background-color: #FFFFFF;
   color: #000000;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 #deploy .container > .row:first-child {
@@ -379,7 +380,7 @@ div.deploy_common > p {
 
 #developers, #development_teams {
   background-color: #F3F5F9;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .develop_common img {
@@ -404,10 +405,11 @@ div.deploy_common > p {
   color: black;
   font-weight: 500;
   margin-top: 30px;
+  margin-bottom: 0
 }
 
 .develop_common [class*="col-"]:nth-child(3) > button {
-  margin: 20px 5px;
+  margin: 20px 5px 0;
   padding: 5px;
   border-radius: 50%;
   background-color: #FFFFFF;
@@ -439,7 +441,7 @@ div.deploy_common > p {
 /* BUSINESS NEEDS */
 
 #business_needs {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 #world_class, #reliable {
@@ -462,7 +464,7 @@ div.deploy_common > p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 40px 10px;
+  padding: 50px 10px;
 }
 
 #regions h3 {
@@ -542,3 +544,25 @@ div.deploy_common > p {
   margin-top: 30px;
   font-size: 0.9em;
 }
+
+/*FOOTER*/
+
+/*GET-STARTED*/
+
+#get_started {
+  background-color: #0159FF;
+  height: 200px;
+  padding: 50px 0;
+}
+
+#get_started > h3 {
+  color: #FFFFFF;
+}
+
+#get_started > button {
+  border: none;
+  color: #006AFF;
+  margin-top: 20px;
+}
+
+/*FOOTER MENUS*/
