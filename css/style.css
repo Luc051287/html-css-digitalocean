@@ -26,6 +26,12 @@ p {
   color: #A9B0C0;
 }
 
+
+input {
+  height: 50px !important;
+}
+
+
 /* img {
   width: 100%;
 } */
@@ -163,10 +169,6 @@ i.nav_burger {
     width: 80%;
   }
 
-}
-
-input {
-  height: 50px !important;
 }
 
 #create_account > h3 {
@@ -566,3 +568,39 @@ div.deploy_common > p {
 }
 
 /*FOOTER MENUS*/
+
+#footer_menus {
+  background-color: #010E28;
+  height: 2000px;
+  padding: 50px 0;
+}
+
+#footer_menus img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#footer_menus p {
+  font-size: 1em;
+  margin: 0;
+  font-weight: 400;
+}
+
+#footer_menus p:nth-child(3) {
+  color: rgb(91, 91, 91);
+}
+
+#footer_menus .social {
+  margin-top: 10px;
+}
+
+#footer_menus .social > a > i {
+  font-size: 22px;
+  color: #A9B0C0;
+  margin-right: 10px;
+}
+
+#footer_menus .social > a > i:hover {
+  color: #FFFFFF;
+}
