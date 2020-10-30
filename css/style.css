@@ -27,8 +27,8 @@ p {
 }
 
 
-input {
-  height: 50px !important;
+input.height_change {
+  height: 50px;
 }
 
 
@@ -37,7 +37,7 @@ input {
 } */
 
 .blue_main {
-  color: #006AFF !important;
+  color: #006AFF;
 }
 
 /* [class*="col-"] {
@@ -85,6 +85,10 @@ header > nav {
   color: #000000;
 }
 
+/* .hlist a:last-child {
+  color: #006AFF;
+} */
+
 .hlist li:hover {
   cursor: pointer;
 }
@@ -113,10 +117,11 @@ i.nav_burger {
   border: 1px solid #006AFF;
   border-radius: 5px;
   padding: 8px;
+  color: #006AFF;
 }
 
 #nav_signup:hover {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   background-color: #006AFF;
 }
 
@@ -630,6 +635,8 @@ div.deploy_common > p {
   color: #FFFFFF;
 }
 
+/*MEDIA-QUERY*/
+
 @media (min-width: 768px) {
 
   #footer_menus ul > li {
@@ -637,3 +644,5 @@ div.deploy_common > p {
   }
 
 }
+
+/* BONUS */
