@@ -1,7 +1,3 @@
-body {
-  font-size: 14px;
-}
-
 /*GENERICS*/
 
 h1 {
@@ -25,7 +21,6 @@ p {
   font-weight: 200;
   color: #A9B0C0;
 }
-
 
 input.height_change {
   height: 50px;
