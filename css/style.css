@@ -592,6 +592,7 @@ div.deploy_common > p {
   bottom: 5px;
   right: 0;
   padding-right: 5px;
+  visibility: hidden;
 }
 
 #shark_logo {
@@ -600,12 +601,17 @@ div.deploy_common > p {
   padding-top: 20px;
   position: relative;
   display: inline-block;
+  visibility: visible;
 }
 
 #shark_logo > img {
   border-radius: 5px;
   max-width: 60px;
   box-shadow: 0px 0px 10px 0px black;
+}
+
+#shark_logo > img:hover {
+  cursor: pointer;
 }
 
 #shark_logo > span {
@@ -628,6 +634,7 @@ div.deploy_common > p {
   margin-top: 10px;
   position: relative;
   display: inline-block;
+  visibility: visible;
 }
 
 .chat {
