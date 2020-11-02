@@ -1,4 +1,10 @@
 /*GENERICS*/
+body {
+  font-size: 14px;
+  background-color: #FFFFFF;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 h1 {
   font-size: 3.5em;
   color: #FFFFFF;
@@ -6,7 +12,7 @@ h1 {
 
 h3 {
   font-size: 2.5em;
-  color: #000000;
+  color: #010E28;
   margin-top: 0;
 }
 
@@ -73,7 +79,8 @@ header > nav {
 }
 
 .hlist a {
-  color: #000000;
+  color: #010E28;
+  font-weight: 500;
 }
 
 .hlist li:hover {
@@ -126,6 +133,7 @@ i.nav_burger {
   font-size: 1.6em;
   font-weight: 200;
   color: #FFFFFF;
+  letter-spacing: 3px;
 }
 
 #main_text {
@@ -178,6 +186,7 @@ button[type="submit"]:hover {
   margin-top: 15px;
   font-weight: 300;
   color: #000000;
+  letter-spacing: normal;
 }
 
 /* CUSTOMERS */
@@ -190,6 +199,11 @@ button[type="submit"]:hover {
   margin-top: 0;
   margin-bottom: 0;
   color: #5B6987;
+}
+
+#logos {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #logos ul {
@@ -466,6 +480,7 @@ div.deploy_common > p {
 
 #footer_menus ul > li > a {
   color: #A9B0C0;
+  font-weight: 300;
 }
 
 #footer_menus ul > li > a:hover {
@@ -571,10 +586,6 @@ div.deploy_common > p {
     font-size: 4.1em;
   }
 
-  #jumbotron p {
-    font-size: 1.7em;
-  }
-
   .extra_padding {
     padding: 0 25px;
   }
@@ -586,12 +597,56 @@ div.deploy_common > p {
 
 }
 
+@media (max-width: 490px) {
+  .section_title {
+    margin: auto;
+    width: 90%;
+  }
+
+  .develop_common img {
+    max-width: 100%;
+  }
+
+  .logo_container > img {
+    max-width: 90%;
+  }
+
+  #deploy ul {
+    width: 100%;
+  }
+
+  .margin_top {
+    margin-top: 90px;
+  }
+
+  #regions p {
+    line-height: normal;
+    margin: 5px 0;
+  }
+
+  .col_xxs_12 {
+    width: 100%;
+  }
+
+  .col_xxs_6 {
+    width: 50%;
+  }
+
+  #regions a.link_with_arrow {
+    line-height: 30px;
+  }
+
+  #business_needs, #deplot {
+    text-align: center;
+  }
+}
+
 /* BONUS */
 .bonus {
   position: fixed;
   bottom: 5px;
   right: 0;
-  padding-right: 5px;
+  padding: 10px;
   visibility: hidden;
 }
 
@@ -655,7 +710,7 @@ div.deploy_common > p {
 .chat > p {
   color: #000000;
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 @media (min-width: 1200px) {
@@ -673,4 +728,10 @@ div.deploy_common > p {
     margin-top: 18px;
   }
 
+}
+
+@media (max-width: 490px) {
+  #chat_cloud {
+    display: none;
+  }
 }
