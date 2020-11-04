@@ -219,7 +219,6 @@ button[type="submit"]:hover {
 }
 
 .logo_container > img {
-  max-height: 100%;
   max-width: 200px;
 }
 
@@ -604,6 +603,10 @@ div.deploy_common > p {
     width: 90%;
   }
 
+  #deploy .hlist {
+    height: 100%
+  }
+
   .develop_common img {
     max-width: 100%;
   }
@@ -614,10 +617,6 @@ div.deploy_common > p {
 
   #deploy ul {
     width: 100%;
-  }
-
-  .margin_top {
-    margin-top: 90px;
   }
 
   #regions p {
